@@ -1,0 +1,54 @@
+[
+    {
+        "asset_id": "AST-001",
+        "asset_name": "Base de Datos de Clientes (PostgreSQL)",
+        "category": "Datos / Database",
+        "owner": "DBA Lead",
+        "confidentiality": 5,
+        "integrity": 5,
+        "availability": 4,
+        "threat": "Acceso no autorizado / Exfiltración de datos",
+        "vulnerability": "Falta de cifrado en reposo y credenciales débiles",
+        "probability": 4,
+        "impact": 5
+    },
+    {
+        "asset_id": "AST-002",
+        "asset_name": "Servidor Web de Pagos (GCP Compute Engine)",
+        "category": "Infraestructura Cloud",
+        "owner": "DevOps Team",
+        "confidentiality": 4,
+        "integrity": 5,
+        "availability": 5,
+        "threat": "Ataque DDoS / Explotación de vulnerabilidades web",
+        "vulnerability": "Parches de seguridad desactualizados en SO",
+        "probability": 3,
+        "impact": 5
+    },
+    {
+        "asset_id": "AST-003",
+        "asset_name": "Laptops Corporativas de Empleados",
+        "category": "Hardware / Endpoints",
+        "owner": "IT Support",
+        "confidentiality": 4,
+        "integrity": 3,
+        "availability": 3,
+        "threat": "Robo / Pérdida del dispositivo",
+        "vulnerability": "Disco duro sin encriptación BitLocker/LUKS",
+        "probability": 4,
+        "impact": 3
+    },
+    {
+        "asset_id": "AST-004",
+        "asset_name": "Repositorio de Código Fuente (GitHub Enterprise)",
+        "category": "Propiedad Intelectual",
+        "owner": "Lead Developer",
+        "confidentiality": 5,
+        "integrity": 4,
+        "availability": 4,
+        "threat": "Fuga de API Keys / Credenciales en commits",
+        "vulnerability": "Ausencia de escaneo automático de secretos (Secret Scanning)",
+        "probability": 4,
+        "impact": 4
+    }
+]
